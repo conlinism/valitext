@@ -1,0 +1,22 @@
+<head>
+	<title>Valitext</title>
+</head>
+
+<body>
+	{{yield}}
+</body>
+
+<template name='home'>
+	<header>
+		<h1>Welcome to Valitext</h1>
+	</header>
+		<input type='button' value='Send Text' class='sendSMS'/>
+	<footer>
+	</footer>
+</template>
+
+<template name='sendsms'>
+	{
+		"msgID": "12345"
+	}
+</template>
